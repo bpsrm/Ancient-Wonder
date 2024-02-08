@@ -31,7 +31,10 @@ type WonderType = {
 export default async function page() {
   const data = await WonderGroup();
   return (
-    <Container maxWidth="lg" style={{ marginTop: "20px" }}>
+    <Container
+      maxWidth="lg"
+      style={{ marginTop: "20px", marginBottom: "20px" }}
+    >
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
         Ancient Wonders
       </h1>
